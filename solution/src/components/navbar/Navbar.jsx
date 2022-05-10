@@ -7,7 +7,7 @@ const Navbar = () => {
   const [github, setGithub] = useState("");
   return (
     <Nav>
-      <Logo to="/home">
+      <Logo to="/home">   
         <i>{"<Clarusway>"}</i>
         <span>recipe</span>
       </Logo>
