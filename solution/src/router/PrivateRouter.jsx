@@ -1,5 +1,6 @@
 import { Navigate, Outlet } from "react-router-dom";
 
+
 const PrivateRouter = () => {
   const user = JSON.parse(sessionStorage.getItem("user"));
   //sessionStorage a gömülmüş user varsa getir, varsa içerde hangi sayfa denildiyse oraya git, yoksa login
