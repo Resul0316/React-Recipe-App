@@ -11,6 +11,7 @@ export const DetailContainer = styled.div`
   /* height: fit-content; */
   padding: 5px;
 `;
+
 export const DetailPart = styled.div`
   /* verilerin , içindekiler,resim ve Nutrients in yazdığı yer */
   display: flex;
