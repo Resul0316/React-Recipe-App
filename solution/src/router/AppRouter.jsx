@@ -14,7 +14,6 @@ const AppRouter = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
-
         <Route path="/home" element={<PrivateRouter />}>
           <Route path="" element={<Home />} />
         </Route>
