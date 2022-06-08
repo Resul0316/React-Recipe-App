@@ -8,6 +8,7 @@ import Details from "../pages/details/Details";
 import Login from "../pages/login/Login";
 import PrivateRouter from "./PrivateRouter";
 const AppRouter = () => {
+  
   return (
     <Router>
       <Navbar />
