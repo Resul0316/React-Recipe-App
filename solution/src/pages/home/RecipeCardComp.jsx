@@ -23,5 +23,4 @@ const RecipeCardComp = ({ recipe1 }) => {
     </RecipeCard>
   );
 };
-
 export default RecipeCardComp;
