@@ -10,6 +10,7 @@ const Form = ({ setQuery, getData, mealTypes, setMeal }) => {
     // mantıken buraya yazılmalı, butona da yazarsak  api yi 2 kere çağırmış oluyor. console da burası açıkken bak
   };
 
+  
   return (
     /* 3 arama kutusunun toplandığı kutu */
     <FormContainer onSubmit={handleSubmit}>
